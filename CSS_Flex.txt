@@ -1,0 +1,18 @@
+By using Flex Boxes we can flexibility adjust the html elements
+To make a Flex Container
+display:flex;
+
+Terminologies:
+main-axis:along x axis
+cross-axis:along y axis
+start
+center
+end
+
+flex-direction:column / column-reverse / row / row-reverse
+
+flex:1(ratio of occupying width of the flex container
+
+align-items(main-axis):flex-start / flex-end / center
+
+justify-content(cross-axis):flex-start / flex-end / center / space around /space between /space-evenly

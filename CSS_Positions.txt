@@ -1,0 +1,19 @@
+CSS Positions 
+-----------------------
+
+Static:default position of any html element (static)
+
+relative:this positioned relative to its own from left and from top of the browser page (animations)
+
+absolute: this is positioned relative to its parent (dropdown menu)
+
+fixed: this is to fix an element in the given position (navbar)
+
+sticky : this is to sticky any element in the given position (navbar)
+
+Z-index: To form layers 
+highest Z-index will be on the top layer 
+lowest Z-index will be on the bottom layer
+To Z-index to work we need to make the value of property except static 
+
+top,left,bottom,left 

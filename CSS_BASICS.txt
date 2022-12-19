@@ -1,0 +1,77 @@
+Syntax:
+
+CSS selector {
+property1:value1;
+property2:value2;
+}
+
+Ways of Adding styles
+---------------------------
+1)Inline Approach:using style attribute
+Limitations:
+	Mixing of Html tags and css styles
+	Styles are duplicated
+	maintaining code is difficult
+--------------------------------------------------------------------------
+2)Internal Approach:using style tag in head section
+Advantages:
+No code Duplication 
+No mixing of Html tags and css styles
+Disadvantages:
+Styles can be used only for this particular document
+ --------------------------------------------------------------------------
+3)External Approach:using link tag
+
+----------------------------------------------------------------------------------------
+CSS Selectors
+-----------------------------------------
+1)Tag Selectors	(Static Selectors)
+2)Id Selectors(#)	(Static Selectors)
+3)Class Selectors(.)	(Static Selectors)
+4)Attribute Selectors	(Static Selectors)
+5)Pseudo Selectors	(Dynamic Selectors)
+Syntax:
+	selector:event{
+	      styles;
+	}
+	
+6)Mixed Selectors
+-----------------------------------------------
+ORDER OF PRIORITY:
+    1)INLINE
+    2)ID (UNIQUE)(#)
+    3)CLASS(CLASSES CAN BE MORE THAN ONE FOR A PARTICULAR TAG  CLASSES CAN BE DUPLICATED )
+(IF CLASSES ARE  MORE THAN ONE THEN IT DEPEDNS ON THE CLASSES DEFINED LATEST)(.)
+
+Tag Selectors:
+nav {
+
+}
+
+class Selectors:
+.class{
+
+}
+
+Id Selectors:
+#id{
+
+}
+
+Attribute Selectors:
+input[type="text"]{
+
+}
+
+pseudo Selectors:
+hover
+focus
+first-child
+last-child
+nth-last-child(number)
+nth-child(number)
+nth-child(even)
+nth-child(odd)
+
+
+Mixed Selectors:

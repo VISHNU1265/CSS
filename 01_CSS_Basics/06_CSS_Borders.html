@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Borders</title>
+  <style>
+    body{
+      font-family:Arial, Helvetica, sans-serif;
+      margin-bottom:20px;
+    }
+    div
+    {
+      background-color:rgb(72,137,244);
+      text-align:center;
+      color:white;
+      padding:20px;
+      font-size:25px;
+      width:800px;
+    }
+    #border-all
+    {
+      border:10px double black;
+    }
+    #border-single
+    {
+      border-left:10px solid yellow;
+    }
+    #border-rounded-all
+    {
+      border:10px solid grey;
+      border-radius:50%;
+    }
+    #border-rounded-two-sides
+    {
+      border:10px solid whitesmoke;
+      border-radius:50px 0 50px 0;
+    }
+    #circle{
+      width:200px;
+      height:200px;
+      box-shadow:0 0 10px black;
+      border-radius:50%;
+      background-color: yellow;
+    }
+    #border-circle{
+      width:200px;
+      height:200px;
+      box-shadow:0 0 10px black;
+      border-radius: 50%;
+      background-color:yellow;
+      border:10px solid brown;
+    }
+
+    #border-frame{
+      width:200px;
+      height:200px;
+      box-shadow: 0 0 10px black;
+      border-top:20px solid blue;
+      border-bottom:20px solid blue;
+      border-left:20px solid saddlebrown;
+      border-right:20px solid saddlebrown;
+
+    }
+
+    #border-ring{
+      width:200px;
+      height:200px;
+      border:20px solid pink;
+      border-radius:50%;
+    }
+
+    #custom-border{
+      width:800px;
+      height:500px;
+      border-left:40px solid yellow;
+      border-right:40px solid yellow;
+      border-top:20px solid slategray;
+      border-bottom:20px solid slategray;
+    }
+  </style>
+</head>
+<body>
+  <h2>Border All Sides</h2>
+  <div id="border-all">
+
+    <h2>Border All Sides</h2>
+  </div>
+
+  <h2>Border Single Side</h2>
+  <div id="border-single">
+
+    <h2>Border Single Side</h2>
+  </div>
+
+  <h2>Border Rounded All</h2>
+  <div id="border-rounded-all">
+
+    <h2>Border Rounded All</h2>
+  </div>
+
+  <h2>Border Rounded Two Sides</h2>
+  <div id="border-rounded-two-sides">
+    <h2>Border Rounded Two Sides</h2>
+  </div>
+
+  <h2>Circle</h2>
+  <section id="circle">
+      
+  </section>
+
+  <h2>Border Circle</h2>
+  <section id="border-circle">
+
+  </section>
+
+  <h2>Border Frame</h2>
+  <section id="border-frame">
+
+  </section>
+
+  <h2>Border Ring</h2>
+  <section id="border-ring">
+
+  </section>
+
+  <h2>Custom Border</h2>
+  <section id="custom-border">
+    <iframe width="800px" height="500px" src="https://www.youtube-nocookie.com/embed/xSXf9h4fIKo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </section>
+
+
+</body>
+</html>

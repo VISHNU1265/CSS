@@ -1,0 +1,40 @@
+.container {
+    border: 5px solid saddlebrown;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.container img{
+    width: inherit;
+    height: inherit;
+    transition: all 0.5s;
+}
+
+.container:hover img{
+    transform: scale(1.2,1.2);
+}
+
+.container .content{
+    position: absolute;
+    left:0;
+    top:0;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    padding:10px;
+    color:whitesmoke;
+    transform-origin: left;
+    transform: perspective(400px) rotateY(90deg);
+    transition: all 0.5s;
+    box-sizing: border-box;
+}
+
+
+.container:hover .content{
+    transform: perspective(400px) rotateY(0deg);
+
+}

@@ -1,0 +1,17 @@
+CSS Display Property is used to convert
+1)Inline level elements to Block Level
+2)Block level elements to Inline Level
+
+Inline:Side by Side
+<a> <span> <input> <img> <iframe>
+
+Block Level:
+<h1> <p> <div> <section> <article>
+
+CSS display
+---------------------------------
+display:inline
+display:block
+display:none(used for dropdown)
+display:inline-block
+display: flex (flex boxes)

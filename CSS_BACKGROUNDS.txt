@@ -1,0 +1,26 @@
+CSS Backgrounds 
+---------------------
+background-color:HEX,RGB,TEXT etc 
+background-image: url("../    / "); 
+
+background-repeat: no repeat, repeat-x,repeat-y 
+background-position: top,left ,right, bottom 
+background-attachment:scroll,fixed 
+
+Instead of writing above 5 lines those can be written in a single property 
+background:color image repeat attachment position
+
+
+background-size:cover;
+
+
+When our image size is greater than the box then we use 
+background-size:cover;
+
+When our image size is smaller than the box then we can 
+repeat the image so we use background-repeat;
+
+
+background:linear-gradient(45deg,blue ,pink,.............)
+
+

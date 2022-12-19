@@ -1,0 +1,33 @@
+  CSS Colors:
+  ----------------
+  1)Textual Colors--- red,blue,orange --Non Transparent 
+  2)RGB --Non Transparent 
+  syntax:rgb(red,green,blue)
+  range:0 - 255
+  Ex:rgb(0,0,0)-black
+  rgb(255,255,255)-white
+
+  3)HEX --Non Transparent 
+  ex:#rrggbb
+  Range:00 - FF 
+  white:#FFFFFF
+  black:#000000
+
+  4)HSL :(hue,Saturation,Lightness) --Non Transparent 
+  hue: degree on color wheel => 0-360
+  saturation: darkness % - 0-100
+  Lightness : lightness % - 0-100
+
+  ex:hsl(60,80%,40%)
+  
+  5)RGBA :Same as RGB Extra Alpha :0 - 1 --Transparent
+  0->full Transparent
+  1->full color
+
+    Syntax:rgba(0,0,0,0.5);
+  6)HSLA:Same as HSL Extra Alpha 0-1 ---Transparent
+  0->full Transparent
+  1->full color
+  hsla(60,80%,90%,0.5)
+
+  

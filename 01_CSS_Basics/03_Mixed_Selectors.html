@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mixed Selectors</title>
+  <style>
+    ol li
+    {
+      color:whitesmoke;
+      font-family:"Comics Sans MS",sans-serif;
+      margin:5px;
+    }
+    ol{
+      background-color: blue;
+    }
+    ol li:first-child
+    {
+      background-color: orange;
+    }
+
+    ol li:last-child
+    {
+      background-color:red;
+    }
+
+    ol li:nth-child(2)
+    {
+      background-color: salmon;
+    }
+
+    ol li:nth-last-child(2)
+    {
+      background-color:pink;
+    }
+
+    ul li:nth-child(even)
+    {
+      background-color: skyblue;
+    }
+    ul li:nth-child(odd)
+    {
+      background-color: tomato;
+    }
+  </style>
+</head>
+<body>
+  <ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JAVA SCRIPT</li>
+    <li>BOOSTRAP</li>
+  </ol>
+
+  <ul type="square">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JAVA SCRIPT</li>
+    <li>BOOSTRAP</li>
+  </ul>
+</body>
+</html>

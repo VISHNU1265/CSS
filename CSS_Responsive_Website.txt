@@ -1,0 +1,18 @@
+Responsive Design 
+----------------------------------------
+->View port attribute in html meta tag 
+->Media Queries(Specifically for each type of device)
+->use Fluid dimensions instead of fixed(rem,em,maxwidth,minwidth)
+->Mobile First Approach
+
+Mobile
+width:0-500px
+
+Tablet
+width:501px-768px
+
+Laptop:
+width:769px-1200px
+
+wide-screen:
+width:>1201px

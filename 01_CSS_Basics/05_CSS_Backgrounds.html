@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Backgrounds</title>
+  <style>
+    body{
+      font-family: Arial,SansSerif;
+      margin-bottom:500px;
+    }
+    #bg-color{
+      background-color: teal;
+    }
+    #bg-image{
+      box-shadow: 0 0 10px black;
+      padding:15px;
+      width: 500px;
+      background-image:url("../img/Image2.jpg");
+      background-size:cover;
+    }
+    #bg-repeat{
+      box-shadow: 0 0 10px black;
+      height:400px;
+      width: 500px;
+      background: salmon url("../img/nature.jpg")  no-repeat scroll top left;
+    }
+    #bg-pos{
+      box-shadow: 0 0 10px black;
+      height:400px;
+      width: 500px;
+      background: salmon url("../img/nature.jpg")  no-repeat scroll top center;
+    }
+    #bg-attach {
+      box-shadow: 0 0 10px black;
+      height: 400px;
+      width: 1000px;
+      background: salmon url("../img/Image3.jpg") no-repeat fixed top left;
+      background-size: cover;
+    }
+    #bg-linear{
+        background: linear-gradient(90deg,black,white,black);
+        width: 500px;
+        height: 400px;
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <div>
+    <h2>Background Color</h2>
+    <div id="bg-color">
+        <h2>I am Teal Color</h2>
+    </div>
+
+  </div>
+
+  <div>
+    <h2>Background Image</h2>
+    <div id="bg-image">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid corporis dignissimos similique veniam voluptates? Adipisci amet consectetur delectus dignissimos doloribus, eligendi fuga fugit hic impedit incidunt itaque labore, natus nisi obcaecati odio quis quos repellendus tempore totam veritatis. Consectetur, illum!</p>
+    </div>
+  </div>
+
+  <div>
+    <h2>Background Repeat</h2>
+    <div id="bg-repeat">
+
+    </div>
+  </div>
+
+  <div>
+    <h2>Background Position</h2>
+    <div id="bg-pos">
+
+    </div>
+  </div>
+
+  <div>
+    <h2>Background Attachment</h2>
+    <div id="bg-attach">
+
+    </div>
+  </div>
+
+  <div>
+    <h2>Backgroud Linear Gradient</h2>
+    <div id="bg-linear">
+
+    </div>
+  </div>
+
+</body>
+</html>
+

@@ -1,0 +1,65 @@
+.register-div{
+    font-family: Arial,sans-serif;
+    background:linear-gradient(45deg,blueviolet,deeppink);
+    width:300px;
+    padding: 10px;
+    color:whitesmoke;
+    margin:50px auto;
+    box-shadow:0 5px 10px black;
+    border-radius: 10px;
+}
+
+.register-div h2{
+    text-align: center;
+    font-size:30px;
+    margin: 10px;
+}
+
+.form-control {
+    width: 290px;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    margin: 10px 0;
+    background: transparent;
+    color:#e682d9;;
+    border-bottom: 3px solid #e682d9;
+}
+
+
+::placeholder{
+    color:#e682d9;
+}
+
+
+.register-button{
+    margin:10px 0;
+    background:linear-gradient(45deg,blueviolet,deeppink);
+    padding:10px 25px;
+    width:280px;
+    border:none;
+    outline:none;
+    box-shadow:0 5px 10px black;
+
+}
+
+.fa-user-circle{
+    font-size:80px;
+    display:block;
+    text-align: center;
+    border:10px solid deeppink;
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    margin:auto;
+    margin-top:-50px;
+    background-color: deeppink;
+    box-shadow: 0 0 5px black;
+
+}
+
+.form-control:focus{
+    border-bottom:3px solid  #ca88c2;
+
+}

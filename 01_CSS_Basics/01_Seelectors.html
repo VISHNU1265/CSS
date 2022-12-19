@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Selectors</title>
+  <!-- 
+  1)Tag Selectors
+  2)Id Selectors
+  3)class Selectors-->
+  <style>
+    h1{
+      background-color: salmon;
+      padding:10px;
+      text-align:center;
+    }
+    .orange
+    {
+      background-color:orange;
+      padding:20px;
+      text-align:center;
+    }
+
+    #orangered
+    {
+      background-color:orangered;
+      padding:10px;
+      text-align:center;
+    }
+
+    .blue {
+      background-color: blue;
+    }
+
+    #yellow
+    {
+      background-color: yellow;
+
+    }
+
+    #red
+    {
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="orangered">Good Morning</h1>
+  <h1 class="orange">Good Afternoon</h1>
+  <h1 class="orange">Good Evening</h1>
+
+  <p class="orange">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim at voluptatum blanditiis expedita? Beatae exercitationem aut quisquam ea quo neque quos magnam eveniet architecto distinctio modi deleniti, laborum nostrum. Voluptates natus, provident consequatur iste ex voluptas nisi minima at eum.</p>
+
+  <!-- It doesn't depend on the order of the classes written 
+  It depends upon the defining the syles in head tag (latest).Here latest is blue -->
+  <h1 class="orange blue">VISHNU</h1>
+  <h1 class="blue orange">VISHNU</h1>
+
+  <!-- we can use class and id for a particular tag.
+  In such case id is given as higher priority-->
+  <h1 class="blue orange" id="yellow">VARDHAN</h1>
+
+  <h1  class="blue orange" id="red" style="background-color: sandybrown;">REDDY</h1>
+  <!-- 
+    ORDER OF PRIORITY:
+    1)INLINE
+    2)ID (UNIQUE)(#)
+    3)CLASS(CLASSES CAN BE MORE THAN ONE FOR A PARTICULAR TAG 
+    CLASSES CAN BE DUPLICATED )(IF CLASSES ARE  MORE THAN ONE THEN IT DEPENDS ON THE CLASSES DEFINED LATEST)(.)
+  -->
+
+</body>
+</html>
